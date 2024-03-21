@@ -10,6 +10,7 @@ WINDOW OBJECT
     * It is the parent node in browser so we can directly call it by window.
     * Example:- In the console, we can simply run the object as 'window'.
                     >>window
+    * The browser window (the browser viewport) is NOT including toolbars and scrollbars.
     * window interface is home to a variety of functions, namespaces, objects, and constructors which are not necessarily directly associated with the concept of a user interface window.
     * The following is denotes the properties and methods of window object,
     
@@ -27,8 +28,11 @@ DOCUMENT OBJECT
     * Document object represents the HTML parser and CSS parser into the document.
     * You can access the complete information and elements of the DOM from this document object.
     * It also allows you to create cookies for the webpage.
+    * It allows developers to access and manipulate the content and structure of a website using JavaScript.
     * The document object also provides events related to the loading of the document and its resources.
     * It is the property of window object so we can use document object simply called by window or else it can run using 'document'.
+    * The Document Object also provides a way to respond to events, 
+      such as user clicks or page loading, by attaching event listeners to elements.
     * Example:-
         In console, we simply run the command either of below one
             >> document (or)
