@@ -9,6 +9,16 @@ WINDOW OBJECT
     * The JavaScript window object provides methods to display three types of message dialogs, the alert, confirmation and prompt dialogs.
     * It is the parent node in browser so we can directly call it by window.
     * Example:- In the console, we can simply run the object as 'window'.
+                    >>window
+    * window interface is home to a variety of functions, namespaces, objects, and constructors which are not necessarily directly associated with the concept of a user interface window.
+    * The following is denotes the properties and methods of window object,
+    
+    WINDOW OBJECT'S INSTANT PROPERTIES                WINDOW OBJECT'S INSTANT METHODS
+    -> window.caches                                  -> window.alert()
+    -> window.navigator                               -> window.blur()
+    -> window.close                                   -> window.ClearTimeOut()
+    -> window.console                                 -> window.dump()
+    -> window.document                                -> window.focus()
 
 DOCUMENT OBJECT
     * Document object is the object property of Window object.
