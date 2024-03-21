@@ -33,7 +33,7 @@ DOCUMENT OBJECT
         In console, we simply run the command either of below one
             >> document (or)
             >> window.document
-    * It is the top node for all those HTML DOM structure. 
+    * It is the top node for all those HTML document model structure. 
 
                   document           
                      |
@@ -42,7 +42,7 @@ DOCUMENT OBJECT
              head         body
             /    \        /    \
          meta   link    <h1>    <p>
-         
+
     * The simple way to access elements in the document object is by using the below method.
                 document.getElementById() 
     
