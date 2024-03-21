@@ -1,0 +1,1 @@
+This text file is about the difference between window object and document object
