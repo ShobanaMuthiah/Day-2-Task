@@ -1,0 +1,15 @@
+DIFFERENCE BETWEEN WINDOW AND DOCUMENT OBJECT
+
+WINDOW OBJECT
+    * Window Object is JavaScript global object in javascript browser.
+    * Window object represents the browser window.
+    * It contains the document object.
+    * The JavaScript window object sits at the top of the JavaScript Object hierarchy
+    * The JavaScript window object provides methods to display three types of message dialogs, the alert, confirmation and prompt dialogs.
+
+DOCUMENT OBJECT
+    * Document object is the object property of Window object.
+    * Document object represents the HTML parser and CSS parser into the document.
+    * You can access the complete information and elements of the DOM from this document object.
+    * It also allows you to create cookies for the webpage.
+    * The document object also provides events related to the loading of the document and its resources.
