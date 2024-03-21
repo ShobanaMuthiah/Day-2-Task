@@ -4,8 +4,11 @@ WINDOW OBJECT
     * Window Object is JavaScript global object in javascript browser.
     * Window object represents the browser window.
     * It contains the document object.
+    * Window object represents the open window in browser.
     * The JavaScript window object sits at the top of the JavaScript Object hierarchy
     * The JavaScript window object provides methods to display three types of message dialogs, the alert, confirmation and prompt dialogs.
+    * It is the parent node in browser so we can directly call it by window.
+    * Example:- In the console, we can simply run the object as 'window'.
 
 DOCUMENT OBJECT
     * Document object is the object property of Window object.
@@ -13,3 +16,17 @@ DOCUMENT OBJECT
     * You can access the complete information and elements of the DOM from this document object.
     * It also allows you to create cookies for the webpage.
     * The document object also provides events related to the loading of the document and its resources.
+    * It is the property of window object so we can use document object simply called by window or else it can run using 'document'.
+    * Example:-
+        In console, we simply run the command either of below one
+            >> document (or)
+            >> window.document
+    * It is the top node for all those HTML DOM structure. 
+
+                  document           
+                     |
+                    HTML
+                  /      \
+             head         body
+            /    \        /    \
+         meta   link    <h1>    <p>
